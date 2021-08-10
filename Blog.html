@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with = device-width, initial-scale = 1.0">
+            <title>University Website Design Tutorial</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,700;1,300&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+           <nav>
+               <a href="index.html"><img src="images/logo.png" alt=""></a>
+             
+                <div class="nav-links" id="navLinks"> 
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                   <ul> 
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about us.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                  
+                   </ul>
+               </div>
+
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+           </nav>
+          
+          <h1>Our Certificates and Online Program For 2021</h1>
+        
+        </section>
+<!-- blog page content -->
+        <section class="blog-content">
+                <div class="row">
+                    <div class="blog-content-left">
+                          <img src="images/certificate.jpg" alt="">
+                          <h2>Our Certificates and Online Program For 2021</h2>
+                          <p>There are many variations of passages of Lorem Ipsum available, 
+                            but the majority has suffered alteration in some form, by injected humour, or randomised words 
+                            which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, 
+                            you need to be sure there isn't anything embarrassing hidden in the middle of text. 
+                            All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, 
+                            making dis the first true generator on the Internet
+                          </p>
+                          
+                          <p>
+                            If you are going to use a passage of Lorem Ipsum, 
+                            you need to be sure there isn't anything embarrassing hidden in the middle of text. 
+                            All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, 
+                            making dis the first true generator on the Internet
+                          </p>
+                         
+                          <p>
+                            There are many variations of passages of Lorem Ipsum available, 
+                            but the majority has suffered alteration in some form, by injected humour, or randomised words 
+                            which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, 
+                            you need to be sure there isn't anything embarrassing hidden in the middle of text. 
+                          </p>
+
+
+                          <div class="comment-box">
+                              <h3>Leave a comment</h3>
+                              <form class="comment-form">
+                                  <input type="text" placeholder="Enter Name">
+                                  <input type="email" placeholder="Enter Email">
+                                  <textarea rows="5" placeholder="Your comment"></textarea>
+                                  <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+                              </form>
+
+                          </div>
+                    </div>
+
+
+                    <div class="blog-content-right">
+                        <h3>Post Categories</h3>
+                         
+                        <div>
+                             <span>Business Analytics</span>
+                             <span>22</span>
+                         </div>
+                         <div>
+                            <span>Business Science</span>
+                            <span>21</span>
+                        </div>
+                        <div>
+                            <span>Data Science</span>
+                            <span>24</span>
+                        </div>
+                        <div>
+                            <span>Computer Science</span>
+                            <span>19</span>
+                        </div>
+                        <div>
+                            <span>financial Analytics</span>
+                            <span>22</span>
+                        </div>
+                        <div>
+                            <span>UI & UX Designs</span>
+                            <span>26</span>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+
+
+
+
+
+
+<!-- footer -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a imperdiet lectus. <br>
+                Donec rutrum eros sed euismod posuere</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter "></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+             <p>Make with <i class="fa fa-heart-o"></i> By Easy Tutorials </p>   
+                
+                
+        </section> 
+<!-- javascript for menu toggle -->
+        <script>
+               var navLinks  = document.getElementById('navLinks');
+               function showMenu(){
+                   navLinks.style.right = '0';
+               }
+               function hideMenu(){
+                   navLinks.style.right='-50%';
+               }
+        </script>
+    </body>
+
+</html>

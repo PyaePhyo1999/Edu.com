@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with = device-width, initial-scale = 1.0">
+            <title>University Website Design Tutorial</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,700;1,300&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+           <nav>
+               <a href="index.html"><img src="images/logo.png" alt=""></a>
+             
+                <div class="nav-links" id="navLinks"> 
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                   <ul> 
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about us.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                  
+                   </ul>
+               </div>
+
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+           </nav>
+          
+          <h1>Courses</h1>
+        </section>
+<!-- course -->
+<section class="courses">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a imperdiet lectus.
+        Donec rutrum eros sed euismod posuere.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a imperdiet lectus.
+                 Donec rutrum eros sed euismod posuere.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a imperdiet lectus.
+                 Donec rutrum eros sed euismod posuere.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a imperdiet lectus.
+                 Donec rutrum eros sed euismod posuere.</p>
+            </div>
+
+        </div>
+</section>
+<!-- facilities -->
+<section class="facilities">
+    <h1>Facilities</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a imperdiet lectus.</p>
+<div class="row">
+    <div class="facilities-col">
+        <img src="images/library.png" >
+        <h3>World Class Library</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a imperdiet lectus.</p>
+   </div>
+
+   <div class="facilities-col">
+       <img src="images/basketball.png">
+       <h3>Largest Play Ground</h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a imperdiet lectus.</p>
+  </div>
+
+  <div class="facilities-col">
+   <img src="images/cafeteria.png">
+   <h3>Tasty and Healty Food</h3>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a imperdiet lectus.</p>
+</div>
+</div>
+   
+</section>
+      
+
+<!-- footer -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a imperdiet lectus. <br>
+                Donec rutrum eros sed euismod posuere</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter "></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+             <p>Make with <i class="fa fa-heart-o"></i> By Easy Tutorials </p>   
+                
+                
+        </section> 
+<!-- javascript for menu toggle -->
+        <script>
+               var navLinks  = document.getElementById('navLinks');
+               function showMenu(){
+                   navLinks.style.right = '0';
+               }
+               function hideMenu(){
+                   navLinks.style.right='-50%';
+               }
+        </script>
+    </body>
+
+</html>
